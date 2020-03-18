@@ -2,6 +2,8 @@ import tkinter as tk
 import sqlite3
 import os.path
 dbName = "user.db"
+
+#Membuat file DB
 def initDB():
     if os.path.isfile(dbName) == False:
         try:
@@ -37,11 +39,7 @@ window.resizable(width=False, height=False)
 
 # Membuat Label dan Entry Untuk Nama dan Email
 lbl_sqlout = tk.Label(master=window, text="aaaaa")
-# ent_sqlout = tk.Entry(master=frm_entry, width=10)
 
-
-# Menyusun label dan entry dengan Grid Tkinter
-# ent_sqlout.grid(row=0, column=1)
 
 
 
@@ -53,7 +51,7 @@ btn_submit = tk.Button(
 )
 
 # Menyusun Grid Window
-# frm_entry.grid(row=0, column=0, padx=10)
+
 btn_submit.grid(row=0, column=0, pady=10)
 lbl_sqlout.grid(row=1, column=0)
 # Run the application
