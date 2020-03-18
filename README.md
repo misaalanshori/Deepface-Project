@@ -15,6 +15,9 @@
 
 Webcam code modified from https://github.com/AshbyGeek/EasyWebcamCamera
 
+
 **Catatan**
+
 Buat dulu file db dari admin.py
+
 webcamcode.py masih file original kalau gak salah
