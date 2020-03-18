@@ -8,7 +8,7 @@
 * Pillow
 * Tkinter
 * sqlite3
-*
+* 
 
 
 **Credits:**
